@@ -14,7 +14,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/goldbacm/cm7f8ha3f00e801so1tf4a7el
 
     //lets get the data and do some fun things with it
     //the goal is to 1) show the commodities 2) create popups for more info and 3) create a toggle legend
-    fetch('/data/Mine_Locations.geojson')
+    fetch('data/Mine_Locations.geojson')
     .then(response => response.json())
     .then(data => {
         // Function to handle each feature and bind the popups
