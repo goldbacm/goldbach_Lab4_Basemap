@@ -1,0 +1,59 @@
+p{color: rgb(10, 10, 10); 
+    font-size: xx-large;}
+    /* all p is going to be this distinction  */
+    p{color: rgb(20, 20, 20); 
+        font-size: xx-large;}
+        /* all p is going to be this distinction  */
+    
+#title{
+    text-align: center;
+    background-color: rgb(224, 131, 24); /* Background color for the heading */
+    padding: 60px; 
+    margin-bottom: 0; /* Remove bottom margin */
+}   
+#intro{
+    text-align: center;
+    background-color: rgb(219, 212, 203); /* Background color for the heading */
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0; /* Remove bottom margin */
+}
+#intro2{
+        text-align: center;
+}
+    #coolmap {
+        height: 640px;  /* Set the height as per your previous example */
+        width: 100%;
+        /*margin-top: 100px;    /* Optional: makes the map take full width of the container */
+    }
+
+       
+    #maptitle{
+        text-align: center;
+    }
+
+ /* Styling for the leaflet control layers */
+.leaflet-control-layers {
+    font-family: Arial, sans-serif;
+}
+
+.commodity-toggle {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.commodity-swatch {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.leaflet-control-layers label {
+    margin-left: 5px;
+}
+
+.leaflet-control-layers div {
+    margin-top: 10px;
+}
